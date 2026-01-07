@@ -1,6 +1,5 @@
-doorNum = int(input("Enter the Door number: "))
-print("Way to open the Door: 0 is push and 1 is pull \n")
-wayNum = int(input("Enter the way to open the door: "))
+doorNum = int(input())
+wayNum = int(input())
 
 # print("num :",num)
 past = 0
@@ -20,6 +19,7 @@ while(count != doorNum):
         past = 0
     print(current)
     count += 1
+
 
 
 
